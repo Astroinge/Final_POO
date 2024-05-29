@@ -1,0 +1,200 @@
+
+header {
+    text-align: center; 
+}
+
+h1 {
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 2em; 
+    font-weight: bold; 
+    margin-bottom: 0.5em; 
+}
+
+h3 {
+    font-size: 1.5em; 
+    font-weight: bold; 
+    margin-bottom: 0.5em; 
+}
+
+p {
+    font-size: 1em; 
+    line-height: 1.5; 
+    margin-bottom: 1em; 
+}
+#mapid {
+    width: 100%;
+    height: 100%;
+    z-index: 0; /* Añadido */
+
+}
+.contenedor {
+    display: flex; /* Cambia a flex para la alineación horizontal */
+    flex-direction: column; /* Alineación vertical */
+    align-items: center; /* Centra horizontalmente los elementos */
+    width: 100%; /* Ancho completo para el contenedor */
+}
+
+#map-container {
+    width: 100%; /* Ancho completo para el mapa */
+    height: 50vh; /* Altura del mapa */
+    margin-bottom: 20px; /* Margen inferior del mapa */
+}
+
+
+h1{
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  table{
+    width:100%;
+    table-layout: fixed;
+  }
+  .tbl-header{
+    background-color: rgba(255,255,255,0.3);
+    margin-top: 75px;
+   }
+  .tbl-content{
+    height:300px;
+    overflow-x:auto;
+    margin-top: 0px;
+    border: 1px solid rgba(255,255,255,0.3);
+  }
+  th{
+    padding: 20px 15px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  td{
+    padding: 15px;
+    text-align: left;
+    vertical-align:middle;
+    font-weight: 300;
+    font-size: 12px;
+    color: #fff;
+    border-bottom: solid 1px rgba(255,255,255,0.1);
+  }
+  
+  @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+  body{
+    background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+    background: linear-gradient(to right, #25c481, #25b7c4);
+    font-family: 'Roboto', sans-serif;
+  }
+  section{
+    margin: 50px;
+  }
+
+/*formulario*/
+  .container {
+    display: flex;
+    height: 320px;
+    margin: 0 auto;
+    width: 640px;
+  }
+  @media (max-width: 767px) {
+    .container {
+      flex-direction: column;
+      height: 630px;
+      width: 320px;
+    }
+  }
+  .left {
+    background: white;
+    height: calc(100% - 40px);
+    top: 20px;
+    position: relative;
+    width: 50%;
+  }
+  @media (max-width: 767px) {
+    .left {
+      height: 100%;
+      left: 20px;
+      width: calc(100% - 40px);
+      max-height: 270px;
+    }
+  }
+  .login {
+    font-size: 20px;
+    font-weight: 800;
+    margin: 20px 40px 40px;
+  }
+  .eula {
+    color: #999;
+    font-size: 10px;
+    line-height: 2.5;
+    margin: 20px;
+  }
+  .right {
+    background: #474A59;
+    box-shadow: 0px 0px 40px 16px rgba(0,0,0,0.22);
+    color: #F1F1F2;
+    position: relative;
+    height: 105%;
+    width: 70%;
+  }
+  @media (max-width: 767px) {
+    .right {
+      flex-shrink: 0;
+      height: 100%;
+      width: 100%;
+      max-height: 350px;
+    }
+  }
+  
+  path {
+    fill: none;
+    stroke: url(#linearGradient);;
+    stroke-width: 4;
+    stroke-dasharray: 240 1386;
+  }
+  .form {
+    margin: 70px;
+    position: absolute;
+  }
+  form-control {
+    color:  #c2c2c5;
+    display: block;
+    font-size: 14px;
+    height: 16px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  input {
+    background: transparent;
+    border: 0;
+    color: #f2f2f2;
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+    outline: none !important;
+    width: 100%;
+  }
+  input::-moz-focus-inner { 
+    border: 0; 
+  }
+  #submit {
+    color: #707075;
+    margin-top: 40px;
+    transition: color 300ms;
+  }
+  #submit:focus {
+    color: #f2f2f2;
+  }
+  #submit:active {
+    color: #d0d0d2;
+  }
